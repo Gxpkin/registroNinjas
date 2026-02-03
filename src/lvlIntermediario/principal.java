@@ -78,15 +78,7 @@ public class principal {
             }
         }
 
-
-    uchiha shisui = new uchiha();
-    shisui.nome ="Shisui Uchiha";
-    shisui.idade =16;
-    shisui.aldeia ="Folha";
-    shisui.statusMissao ="Concluida";
-
-        shisui.mostrarInformacoes();
-
-
+        ninja naruto = new ninja("folha","Naruto",23,"Concluida");
+        System.out.println(naruto.aldeia);
         }
-    }
+ }
